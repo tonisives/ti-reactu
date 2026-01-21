@@ -25,6 +25,10 @@
     "eslint",
     "utility"
   ],
+  "files": [
+    "dist",
+    "eslint-plugin-react-style"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts,.tsx,.js",
@@ -39,6 +43,7 @@
     "eslint": "^9.0.0",
     "eslint-plugin-react-style": "file:./eslint-plugin-react-style",
     "react": "^18.2.0",
+    "ti-reactu": "^1.0.0",
     "typescript": "^5.4.2",
     "vitest": "^1.6.0"
   },

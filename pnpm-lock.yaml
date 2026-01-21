@@ -29,6 +29,9 @@ importers:
       react:
         specifier: ^18.2.0
         version: 18.3.1
+      ti-reactu:
+        specifier: ^1.0.0
+        version: 1.0.0(react@18.3.1)
       typescript:
         specifier: ^5.4.2
         version: 5.9.3
@@ -916,6 +919,11 @@ packages:
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
+
+  ti-reactu@1.0.0:
+    resolution: {integrity: sha512-LM1f9E+O5eUCskvvrnKJmxkVTsbmnzIoZ5LUZUqGjoekF42yWImHYAFpEVuxqpaBlNxL/Bznx22DM5IGWflfSg==}
+    peerDependencies:
+      react: '>=18.0.0'
 
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
@@ -1866,6 +1874,10 @@ snapshots:
   supports-color@7.2.0:
     dependencies:
       has-flag: 4.0.0
+
+  ti-reactu@1.0.0(react@18.3.1):
+    dependencies:
+      react: 18.3.1
 
   tinybench@2.9.0: {}
 

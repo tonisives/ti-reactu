@@ -1,5 +1,5 @@
 const tsParser = require("@typescript-eslint/parser")
-const reactStyle = require("./eslint-plugin-react-style")
+const reactStyle = require("ti-reactu/eslint-plugin-react-style")
 
 module.exports = [
   {
