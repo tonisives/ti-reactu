@@ -9,6 +9,8 @@ module.exports = {
     "enforce-file-layout": require("./rules/enforce-file-layout"),
     "no-inline-handler": require("./rules/no-inline-handler"),
     "prefer-early-return": require("./rules/prefer-early-return"),
+    "max-jsx-depth": require("./rules/max-jsx-depth"),
+    "max-component-size": require("./rules/max-component-size"),
   },
   configs: {
     recommended: {
@@ -22,6 +24,8 @@ module.exports = {
         "react-style/enforce-file-layout": "error",
         "react-style/no-inline-handler": ["error", { maxBodyLength: 30 }],
         "react-style/prefer-early-return": "warn",
+        "react-style/max-jsx-depth": ["error", { max: 5 }],
+        "react-style/max-component-size": ["error", { max: 100 }],
       },
     },
   },
